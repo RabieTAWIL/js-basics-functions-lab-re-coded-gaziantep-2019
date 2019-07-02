@@ -6,3 +6,4 @@ function distanceFromHqInBlocks(xBlocks) {
 function distanceFromHqInFeet(xBlocks){
   return distanceFromHqInBlocks(xBlocks) * 264;
 }
+function 
