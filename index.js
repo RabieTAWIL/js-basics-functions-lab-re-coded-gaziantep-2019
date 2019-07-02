@@ -15,6 +15,7 @@ function calculatesFarePrice(start, destination){
     return price = "gives customers a free sample";
   }
   else if ( distanceTravelledInFeet(start, destination) > 400 && distanceTravelledInFeet(start, destination) <= 2000 ){
-    return price = distanceTravelledInFeet(start, destination) * 
+    return price = distanceTravelledInFeet(start, destination) * 0.2;
   }
+  
 }
