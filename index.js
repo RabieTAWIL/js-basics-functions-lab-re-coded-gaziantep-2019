@@ -12,7 +12,7 @@ function distanceTravelledInFeet(start, destination){
 
 function calculatesFarePrice(start, destination){
   let distance = distanceTravelledInFeet(start, destination);
-  if (distanceTravelledInFeet(start, destination) <= 400 ){
+  if (distance <= 400 ){
     return price = "gives customers a free sample";
   }
   else if ( distanceTravelledInFeet(start, destination) > 400 && distanceTravelledInFeet(start, destination) <= 2000 ){
