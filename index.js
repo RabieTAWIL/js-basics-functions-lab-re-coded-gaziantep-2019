@@ -10,4 +10,8 @@ function distanceTravelledInFeet(start, destination){
   return Math.abs(xBlock2 - xBlock1) * 264;
 }
 
-function calculatesFarePrice(start, destination)
+function calculatesFarePrice(start, destination){
+  if (distanceTravelledInFeet(start, destination) <= 400 ){
+    return 
+  }
+}
